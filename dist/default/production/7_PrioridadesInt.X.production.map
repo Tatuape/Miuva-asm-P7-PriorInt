@@ -1,0 +1,53 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Tue Dec 13 12:43:00 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000004
+                   .org_2       code   0x000018    program   0x000078
+.config_300001_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000b      
+                            0x000018    0x00008f      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+            135 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BUCLE   0x00004e    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+                   INICIO   0x00001c    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+                    ISR_H   0x000052    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+                    ISR_L   0x000060    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+                RETARDO1s   0x000070    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+                    Ret1s   0x00007c    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x00001c    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+                    BUCLE   0x00004e    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+                    ISR_H   0x000052    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+                    ISR_L   0x000060    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+                RETARDO1s   0x000070    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+                    Ret1s   0x00007c    program     static D:\MPLABXProjects\Practicas_curso_basico\7_PrioridadesInt.X\main.asm
+
+
